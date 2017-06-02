@@ -31,4 +31,4 @@ dstbox2.setPosition([.3, 1, 0.3])
 dstbox2.setScale([.05,.05,.05])
 destinations = [dstbox, dstbox2]
 
-grabMod = grab_move.grab_mod(items, controllers, destinations, False)
+grabMod = grab_move.grab_mod(items, controllers, destinations, True)
